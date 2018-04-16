@@ -1,0 +1,50 @@
+class VInstrumentSetter : public AButton
+    {
+    private:
+    VCanvas* controlCanvas;
+    AInstrument* thisInstrument;
+    HDC instrDC;// = txCreateCompatibleDC(150, 50);
+
+    public:
+
+    InstrumentSetter (int x, int y, int sizex, int sizey, Instrument* getInstrument, VCanvas* givenCanvas, HDC givenDC):
+        instrDC (givenDC)
+        thisInstrument (getInstrument)
+        {
+        cords.x = x;
+        cords.y = y;
+
+        size.x = sizex;
+        size.y = sizey;
+
+        controlCanvas = givenCanvas;
+        }
+
+    void PerformAction ();
+
+    void Draw() override
+        {
+        //printf ("drawing started\n");
+        txBitBlt (txDC(), cords.x, cords.y, size.x, size.y, instrDC);
+        //printf ("drawing finished\n");
+        }
+
+
+    void Test() override
+        {
+        POINT mousepos = txMousePos();
+        int mousestate = txMouseButtons();
+        if (In (std::nomeow, mousepos.x, cords.x, cords.x + size.x) &&
+            In (std::nomeow, mousepos.y, cords.y, cords.y + size.y) &&
+            mousestate == 1)
+            {
+            this->PerformAction();
+            }
+        }
+
+    };
+
+void VInstruSetter::PerformAction()
+    {
+    controlCanvas->setInstrument (thisInstrument);
+    }

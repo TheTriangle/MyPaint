@@ -1,0 +1,1134 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 11172, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1C38 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F7C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0043A28C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::LoadFromFile()
+# 2 0x0043A5C6 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VLoader::PerformAction()
+# 3 0x00439FBA in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: AButton::Test()
+# 4 0x0041A019 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 5 0x0041A405 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 12 2018 22:30:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 12 2018 22:30:14
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 11172, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x31B0 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F7C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txBitBlt()
+# 1 0x0043A28C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::LoadFromFile()
+# 2 0x0043A5C6 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VLoader::PerformAction()
+# 3 0x00439FBA in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: AButton::Test()
+# 4 0x0041A019 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 5 0x0041A405 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 12 2018 22:30:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 13 2018 18:46:39
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 7801, функция: HICON__* {anonymous}::TX::_txCreateTXIcon(int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "icon".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0xEE8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0040619A in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCreateTXIcon()
+# 1 0x0040F781 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txNotifyIcon()
+# 2 0x004147B1 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txCreateCompatibleDC()
+# 3 0x004148F5 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txCreateDIBSection()
+# 4 0x00439A57 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: SpreadInstrument::draw()
+# 5 0x00436BE4 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: AInstrument::test()
+# 6 0x0043A3E8 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 7 0x0041A019 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 8 0x0041A405 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 13 2018 18:49:07, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 13 2018 18:49:16
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 7917, функция: bool {anonymous}::TX::_txCanvas_OnDESTROY(HWND),
+
+Сообщение: Cannot lock GDI to free resources
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdrE0, Thread: 0xD54 (Canvas), errno: 34 (Result too large). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00406914 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_OnDESTROY()
+# 1 0x00406401 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_WndProc()
+# 2 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+# 3 0x77846D3A in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+# 4 0x77846DE8 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+# 5 0x77846E44 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+# 6 0x77E4013A in C:\Windows\SysWOW64\ntdll.dll: KiUserCallbackDispatcher()
+# 7 0x7784CFFF in C:\Windows\syswow64\USER32.dll: WCSToMBEx()
+# 8 0x7784D058 in C:\Windows\syswow64\USER32.dll: WCSToMBEx()
+# 9 0x00406512 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_WndProc()
+#10 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+#11 0x77846D3A in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#12 0x77846DE8 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#13 0x77846E44 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#14 0x77E4013A in C:\Windows\SysWOW64\ntdll.dll: KiUserCallbackDispatcher()
+#15 0x7784CFFF in C:\Windows\syswow64\USER32.dll: WCSToMBEx()
+#16 0x69EB7744 in C:\Windows\system32\uxtheme.dll: GetThemeBool()
+#17 0x69EBA092 in C:\Windows\system32\uxtheme.dll: SetWindowThemeAttribute()
+#19 0x69EB22C3 in C:\Windows\system32\uxtheme.dll: Ordinal49()
+#20 0x7784D0AB in C:\Windows\syswow64\USER32.dll: WCSToMBEx()
+#21 0x00406512 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_WndProc()
+#22 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+#23 0x77847316 in C:\Windows\syswow64\USER32.dll: GetDC()
+#24 0x778477C4 in C:\Windows\syswow64\USER32.dll: CharPrevW()
+#25 0x77847BCA in C:\Windows\syswow64\USER32.dll: DispatchMessageA()
+#26 0x00405559 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_ThreadProc()
+#27 0x76081287 in C:\Windows\syswow64\msvcrt.dll: itow_s()
+#28 0x76081328 in C:\Windows\syswow64\msvcrt.dll: endthreadex()
+#29 0x7773343D in C:\Windows\syswow64\kernel32.dll: BaseThreadInitThunk()
+#30 0x77E69832 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+#31 0x77E69805 in C:\Windows\SysWOW64\ntdll.dll: RtlInitializeExceptionChain()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 13 2018 18:49:07, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 13 2018 18:49:16
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 7917, функция: bool {anonymous}::TX::_txCanvas_OnDESTROY(HWND),
+
+Сообщение: Cannot lock GDI to free resources
+
+#3: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdrE0, Thread: 0xD54 (Canvas), errno: 34 (Result too large). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00406914 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_OnDESTROY()
+# 1 0x00406401 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_WndProc()
+# 2 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+# 3 0x77846D3A in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+# 4 0x77846DE8 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+# 5 0x77846E44 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+# 6 0x77E4013A in C:\Windows\SysWOW64\ntdll.dll: KiUserCallbackDispatcher()
+# 7 0x778497F3 in C:\Windows\syswow64\USER32.dll: SendMessageTimeoutW()
+# 8 0x59913257 in C:\Program Files (x86)\Yandex\Punto Switcher\pshook.dll: EnableCapsLock()
+# 9 0x599119E6 in C:\Program Files (x86)\Yandex\Punto Switcher\pshook.dll: Ordinal7()
+#10 0x599116FD in C:\Program Files (x86)\Yandex\Punto Switcher\pshook.dll: Ordinal7()
+#11 0x77857451 in C:\Windows\syswow64\USER32.dll: CallNextHookEx()
+#12 0x7785E9E2 in C:\Windows\syswow64\USER32.dll: CharToOemBuffA()
+#13 0x77E4013A in C:\Windows\SysWOW64\ntdll.dll: KiUserCallbackDispatcher()
+#14 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+#15 0x7786F9BF in C:\Windows\syswow64\USER32.dll: EnumDisplayDevicesW()
+#16 0x7786F765 in C:\Windows\syswow64\USER32.dll: EnumDisplayDevicesW()
+#17 0x7786F86A in C:\Windows\syswow64\USER32.dll: EnumDisplayDevicesW()
+#18 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+#19 0x77846D3A in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#20 0x77846DE8 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#21 0x77846E44 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#22 0x77E4013A in C:\Windows\SysWOW64\ntdll.dll: KiUserCallbackDispatcher()
+#23 0x7787204F in C:\Windows\syswow64\USER32.dll: SetKeyboardState()
+#24 0x7786DA4B in C:\Windows\syswow64\USER32.dll: DialogBoxIndirectParamAorW()
+#25 0x7789F7D0 in C:\Windows\syswow64\USER32.dll: SoftModalMessageBox()
+#26 0x7789FAAC in C:\Windows\syswow64\USER32.dll: SoftModalMessageBox()
+#27 0x7789FBAF in C:\Windows\syswow64\USER32.dll: MessageBoxTimeoutW()
+#28 0x7789FDA5 in C:\Windows\syswow64\USER32.dll: MessageBoxExW()
+#29 0x7789FDE7 in C:\Windows\syswow64\USER32.dll: MessageBoxW()
+#30 0x0040F668 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txMessageBox()
+#31 0x0040F4DD in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txProcessError()
+#32 0x004093CB in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txError()
+#33 0x00406914 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_OnDESTROY()
+#34 0x00406401 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_WndProc()
+#35 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+#36 0x77846D3A in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#37 0x77846DE8 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#38 0x77846E44 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#39 0x77E4013A in C:\Windows\SysWOW64\ntdll.dll: KiUserCallbackDispatcher()
+#40 0x7784CFFF in C:\Windows\syswow64\USER32.dll: WCSToMBEx()
+#41 0x7784D058 in C:\Windows\syswow64\USER32.dll: WCSToMBEx()
+#42 0x00406512 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_WndProc()
+#43 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+#44 0x77846D3A in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#45 0x77846DE8 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#46 0x77846E44 in C:\Windows\syswow64\USER32.dll: GetThreadDesktop()
+#47 0x77E4013A in C:\Windows\SysWOW64\ntdll.dll: KiUserCallbackDispatcher()
+#48 0x7784CFFF in C:\Windows\syswow64\USER32.dll: WCSToMBEx()
+#49 0x69EB7744 in C:\Windows\system32\uxtheme.dll: GetThemeBool()
+#50 0x69EBA092 in C:\Windows\system32\uxtheme.dll: SetWindowThemeAttribute()
+#52 0x69EB22C3 in C:\Windows\system32\uxtheme.dll: Ordinal49()
+#53 0x7784D0AB in C:\Windows\syswow64\USER32.dll: WCSToMBEx()
+#54 0x00406512 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_WndProc()
+#55 0x778462FA in C:\Windows\syswow64\USER32.dll: gapfnScSendMessage()
+#56 0x77847316 in C:\Windows\syswow64\USER32.dll: GetDC()
+#57 0x778477C4 in C:\Windows\syswow64\USER32.dll: CharPrevW()
+#58 0x77847BCA in C:\Windows\syswow64\USER32.dll: DispatchMessageA()
+#59 0x00405559 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::_txCanvas_ThreadProc()
+#60 0x76081287 in C:\Windows\syswow64\msvcrt.dll: itow_s()
+#61 0x76081328 in C:\Windows\syswow64\msvcrt.dll: endthreadex()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 13 2018 18:49:07, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 13 2018 18:49:17
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000505. Попытка прочесть данные по адресу 0x00000505. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F42C0 (32-bit), Flags: CMdRe0, Thread: 0x1C20 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 1 0x00419FFC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 2 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:23:50, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:24:00
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000505. Попытка прочесть данные по адресу 0x00000505. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F42C0 (32-bit), Flags: CMdRe0, Thread: 0x1C20 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 1 0x00419FFC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 2 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:23:50, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:24:00
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000505. Попытка прочесть данные по адресу 0x00000505. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F42C0 (32-bit), Flags: CMdRe0, Thread: 0x2848 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 1 0x00419FFC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 2 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:26:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:27:00
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000505. Попытка прочесть данные по адресу 0x00000505. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F42C0 (32-bit), Flags: CMdRe0, Thread: 0x2848 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 1 0x00419FFC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 2 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:26:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:27:01
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1FF0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:27:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:27:50
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1FF0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:27:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:27:50
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1C8C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:29:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:29:29
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1C8C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:29:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:29:29
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1D14 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:35:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:36:04
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1D14 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:35:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:36:04
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1698 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:36:52, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:37:01
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x1698 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:36:52, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:37:01
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x2BC8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:37:37, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:37:47
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x2BC8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:37:37, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:37:47
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x25B4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:38:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:38:42
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00419FEC в функции WindowManager::drawAll(). Попытка прочесть данные по адресу 0x0000077B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x25B4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419FEC in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::drawAll()
+# 1 0x0041A456 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:38:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:38:42
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000064. Попытка прочесть данные по адресу 0x00000064. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x297C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 1 0x0043AB4C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 2 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 3 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:44:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:44:12
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000064. Попытка прочесть данные по адресу 0x00000064. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x297C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 1 0x0043AB4C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 2 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 3 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:44:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:44:12
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0043AB40 в функции VCanvas::Test(). Попытка прочесть данные по адресу 0x40640004. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x680 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0043AB40 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 1 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 2 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:44:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:44:28
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0043AB40 в функции VCanvas::Test(). Попытка прочесть данные по адресу 0x40640004. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F32C0 (32-bit), Flags: CMdRe0, Thread: 0x680 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0043AB40 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 1 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 2 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 17:44:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 17:44:29
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 10943, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 368 больше, чем y1 = 340. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F42C0 (32-bit), Flags: CMdRe0, Thread: 0x2B30 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004138DE in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txDrawText()
+# 1 0x0043A74E in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VTextInstrument::test()
+# 2 0x0043BC38 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 3 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 4 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 18:30:43, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 18:37:24
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 10943, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 203 больше, чем y1 = 178. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F52C0 (32-bit), Flags: CMdRe0, Thread: 0x29F8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004138DE in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txDrawText()
+# 1 0x0043A842 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VTextInstrument::test()
+# 2 0x0043BD3C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 3 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 4 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 18:41:15, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 18:41:24
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 10943, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 305 больше, чем y1 = 268. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F52C0 (32-bit), Flags: CMdRe0, Thread: 0x1448 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004138DE in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txDrawText()
+# 1 0x0043A842 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VTextInstrument::test()
+# 2 0x0043BD3C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 3 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 4 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 18:42:14, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 18:42:23
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 10937, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр x0 = 231 больше, чем x1 = 229. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F52C0 (32-bit), Flags: CMdRe0, Thread: 0x207C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00413887 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txDrawText()
+# 1 0x0043A45C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VTextInstrument::draw()
+# 2 0x0043A58D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VTextInstrument::test()
+# 3 0x0043BDE8 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 4 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 5 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 18:47:16, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 18:47:26
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe, файл: G:\TX\TXLib.h, строка: 10937, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр x0 = 274 больше, чем x1 = 228. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004F52C0 (32-bit), Flags: CMdRe0, Thread: 0x2890 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00413887 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: (anonymous namespace)::TX::txDrawText()
+# 1 0x0043A45C in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VTextInstrument::draw()
+# 2 0x0043A58D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VTextInstrument::test()
+# 3 0x0043BDE8 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: VCanvas::Test()
+# 4 0x0041A03D in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: WindowManager::testAll()
+# 5 0x0041A463 in D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	G:\TX\TXLib.h
+Compiled:	Apr 16 2018 18:51:52, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Apr 16 2018 18:52:01
+
+Run file:	D:\Документыы\GitHub\MyFiles\MyPaint\MyPaint1.exe
+Directory:	D:\Документыы\GitHub\MyFiles\MyPaint
+
+--------------------------------------------------
